@@ -1,0 +1,133 @@
+body{
+    background-color: #EBEBEB;
+}
+
+.login-form{
+    background-color: #FFFFFF;
+    color: #374151;
+    width: 500px;
+    border-radius: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.input-container {
+    position: relative;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.text-input, .password-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 40px;
+    border: 3px solid #ccc;
+}
+
+.material-icons {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-size: 18px !important;
+    color: #ccc; 
+}
+
+.login-button{
+    width: 50%; 
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0065FD;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px auto; 
+    display: inline-block;
+    align-content: center;
+    margin-left: 50px;
+}
+
+.line-or{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.line {
+    width: 40%;
+    height: 2px;
+    background-color: lightgray;
+    margin: 10px 0;
+}
+
+.or {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+    color: lightgray;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #374151;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 150px; 
+    justify-content: center; 
+}
+
+.social-button img {
+    width: 20px;
+    margin-right: 10px; 
+}
+
+.social-button:hover {
+    background-color: #F3F4F6;
+}
+
+.google-button {
+    border-color: #E5E7EB;
+}
+
+.facebook-button {
+    border-color: #E5E7EB;
+}
+
+.dont-have-account{
+    margin-top: 20px;
+}
+
+.dont-have-account a{
+    color: #0065FD;
+    text-decoration: none;
+}
+
+.login-button:hover{
+    background-color: #3e8e41;
+}
+
+.dont-have-account a:hover{
+    text-decoration: underline;
+}
